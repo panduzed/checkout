@@ -1,0 +1,386 @@
+
+/*****STYLES FOR M1 CHECKOUT******/
+
+
+
+
+/*** 1 OFFSET DEFULT ROW STYLES - 10 ***/
+/*** 2 HEADER - 22 ***/
+/*** 3 NAV - 43 ***/
+/*** 4 LINKS - 91 ***/
+/*** 5 ACCOUNT - 99 ***/
+/*** 6 BILLING - 164 ***/
+/*** 7 PAYMENT - 188 ***/
+/*** 8 ORDER - 202 ***/
+/*** 9 FINISHED - 272 ***/
+/*** 10 TABLE - 352 ***/
+
+
+/*****OFFSET DEFULT ROW STYLES*****/
+.row {
+	margin-right: 15px	
+}
+
+
+/*****HEADER*****/
+header {
+	background-color: #f4f4f4;
+	height: 95px;
+	border-bottom: solid 1px lightgray;
+}
+
+header p {
+	float: right;
+	padding-top: 30px;
+	padding-right: 35px;
+	font-family: 'Hind', sans-serif;
+	font-size: 25px;
+	color: #60bf19;
+}
+
+img {
+	padding-top: 15px;
+}
+
+
+/*****NAV*****/
+
+nav {
+	padding-top: 30px;
+	padding-left: 10px;
+}
+
+/* navigation numbers alignment for col-xs-3 / offset from defult to make it align */
+.num .col-xs-3 {
+	padding-left: 10px;
+	padding-right: 0px;
+	text-align: center;
+}
+
+/* navigation numbers alignment for col-xs-4 / offset from defult to make it align */
+.num .col-xs-4 {
+	padding-left: 40px;
+	padding-right: 0px;
+	text-align: center;
+}
+
+/* navigation names alignment for col-xs-4 / offset from defult to make it align */
+.nam .col-xs-4 {
+	padding-left: 20px;
+	padding-right: 0px;
+}
+
+
+
+/* navigation numbers and circles */
+.nav_num {
+	text-align: center;
+	font-size: 16px;
+	padding: 6px;
+	border: solid 1px;
+	border-radius: 50%;
+	width: 35px;
+	color: orange;
+	background-color: white;
+}
+
+/* navigationnames and links */
+.nav_nam {
+	font-size: 11px;
+	color: orange;
+}
+
+
+/*****LINKS*****/
+
+a:link {
+	text-decoration: none;
+}
+
+
+
+/*****ACCOUNT*****/
+
+.account h2 {
+	color: #60bf19;
+	font-size: 24px;
+}
+
+.account p {
+	font-size: 12px;
+	line-height: 60%;
+}
+
+.form_input {
+	border: solid 1px lightgray;
+}
+
+form input {
+	border: none;
+	padding-left: 15px;
+	width: 215px;
+}
+
+.form_input p {
+	font-size: 16px;
+}
+
+
+
+#rcorners1 {
+    border-radius: 15px;
+    border: 2px solid lightgray;
+    width: 360px;
+}
+
+.back {
+	color: white;
+	background-color: lightgray;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 18px;
+	border-radius: 10px;
+	width: 90px;
+	border:none;
+}
+
+.continue {
+	color: white;
+	background-color: orange;
+	padding: 10px;
+	padding-left: 35px;
+	padding-right: 35px;
+	font-size: 18px;
+	border-radius: 10px;
+	float: right;
+	width: 160px;
+	border: none;
+}
+
+
+label {
+	width: 140px;
+	padding: 10px;
+}
+
+/*****BILLING*****/
+
+select {
+	color: #af9e9e;
+	border: none;
+    padding-left: 15px;
+    width: 215px;
+}
+
+input[type='radio'] {
+    width: 55px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid white;
+}
+
+
+/*****PAYMENT*****/
+
+
+.payment_form p, select {
+	font-size: 16px
+}
+
+.payment_form select {
+	width: 130px;
+}
+
+
+
+
+/*****ORDER*****/
+
+.order_out p {
+	padding-left: 15px;
+	line-height: 3px;
+	width: 355px;
+}
+
+.order_out {
+	
+	padding: 15px;
+	width: 356px;
+}
+
+
+.rcorners1 {
+    border-radius: 15px;
+    border: 2px solid lightgray;
+    width: 355px;
+}
+
+.item {
+	padding: 35px;
+}
+
+.item b {
+	float: right;
+	padding-left: 85px;
+	margin-top: -55px;
+	line-height: 20px;
+}
+
+.item strong {
+	font-size: 22px;
+	float: right;
+	color: gray;
+}
+
+.shipping {
+	padding: 35px
+}
+
+.shipping strong {
+	font-size: 22px;
+	float: right;
+	color: gray;
+}
+
+.total {
+	padding: 35px;
+	color: #60bf19;
+	font-size: 26px;
+}
+
+.total strong {
+	font-size: 26px;
+	float: right;
+	color: #60bf19;
+}
+
+.order_out b {
+
+	font-size: 20px;
+}
+
+.order_text {
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+/*****FINISHED*****/
+
+.finished p {
+	padding: 15px;
+	width: 356px;
+	font-size: 20px;
+	line-height: 20px;
+}
+
+ul {
+	font-size: 20px;
+}
+
+li {
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.info p {
+	font-size: 20px;
+	padding-left: 15px
+}
+
+.info strong {
+	color: #60bf19;
+}
+
+.survey {
+	width: 358px;
+	height: 460px;
+	border: none;
+}
+
+.survey input {
+	font-size: 20px;
+	padding-left: 15px
+}
+
+
+.survey h5 {
+	text-align: center;
+	color: lightgray;
+	font-size: 18px;
+}
+
+.survey h4 {
+	text-align: center;
+	color: #0cf;
+	font-size: 22px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #f4f4f4;
+}
+
+.survey_t {
+	margin-top: -55px;
+	
+}
+
+
+.vote {
+	background-color: #0cf;
+	color: white;
+	padding: 10px;
+	width: 100px;
+	font-size: 18px;
+	 border-radius: 8px;
+	 border: none;
+	 margin-left: 135px;
+	 margin-top: 390px;
+	 position: absolute;
+}
+
+.v-button {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/*****TABLE*****/
+
+td p {
+	padding-top: 15px;
+}
+
+/* table inside lines colors */
+th, td {
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+
+/* user input text color*/
+td input {
+	color: #af9e9e;
+}
+
+hr {
+	width: 100%;
+	position: absolute;
+	border-top: 1px solid orange;
+}
+
+p #ship_radio {
+	color:  #60bf19;
+}
+
+input {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
