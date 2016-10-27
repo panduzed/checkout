@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>M1 Checkout - Account</title>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Hind:300" rel="stylesheet">
+	<!-- Icons -->
+	<link rel="stylesheet" href="css/fa/css/font-awesome.min.css">
+	<!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+     <!-- Main Styles -->
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+
+	<header>
+		<div class="row">
+			<div class="col-md-12 col-xs-12">
+				<div class="col-md-4 col-xs-4"> 
+					<img src="img/logo.png" width="120px">
+				</div>
+				<div class="col-md-8 col-xs-8">
+					<p><i class="fa fa-shopping-bag"></i>YOUR ORDER</p>
+				</div>
+			</div><!-- close col-md-12 col-xs-12 -->
+		</div><!-- close row -->
+
+	</header>
+	
+	<nav>
+		<div class="row num">
+			<div class="col-md-12 col-xs-12">
+			<hr>
+				<div class="col-md-2 col-xs-2">
+						<a href="account.html"><p class="nav_num" id="n1" style="color: #60bf19">1</p></a>
+				</div>
+
+				<div class="col-md-4 col-xs-4">
+						<a href="billing.html"><p class="nav_num" id="n2">2</p></a>
+				</div>
+				
+				<div class="col-md-4 col-xs-4">
+						<a href="payment.html"><p class="nav_num" id="n3">3</p></a>
+				</div>
+				
+				<div class="col-md-2 col-xs-2">
+						<a href="finished.html"><p class="nav_num" id="n4">4</p></a>
+				</div>			
+			</div><!-- close col-md-12 col-xs-12 -->
+		</div><!-- close row -->
+		<div class="row nam">
+			<div class="col-md-12 col-xs-12">
+				<div class="col-md-2 col-xs-2">
+						<a href="account.html"><p class="nav_nam" style="color: #60bf19">Account</p></a>
+				</div>
+				<div class="col-md-4 col-xs-4">
+						<a href="billing.html"><p class="nav_nam">Shipping & Billing</p></a>
+				</div>
+				<div class="col-md-4 col-xs-4">
+						<a href="payment.html"><p class="nav_nam">Review & Payment</p></a>
+				</div>
+				<div class="col-md-2 col-xs-2">
+						<a href="finished.html"><p class="nav_nam">Finished</p></a>
+				</div>			
+			</div><!-- close col-md-12 col-xs-12 -->
+		</div><!-- close row -->
+	</nav>
+	
+	
+	<!-- main part of the page, account table -->
+	<div class="container">
+		<div class="account">
+			<h2>Start your Order</h2>
+			<p>Please enter your name and email address</p>
+			<p>so that we may prepare your account</p>
+
+			<div class="account_form">
+				<form action="billing.php">
+					<div class="form_input" id="rcorners1">
+					<table rules="all">
+					  <tr>
+					  	<td><p><label>First name</label></p>
+					  	<td><p><input type="text" name="firstname" value="Ilya"></p></td>
+					  </td>
+					  <tr>
+					  	<td><p><label>Last name</label></p>
+					  	<td><p><input type="text" name="lastname" value="Design" class="ln"></p></td>
+					  </td>
+					  <tr>
+						<td><p><label>Email Address</label></p>
+						<td><p><input type="email" name="email" value="you@example.com"></p></td>
+					  </tr>
+					 </table>
+					  </div>
+					  <br><br>
+					  <input type="button" value="Back" class="back">
+					  <input type="submit" value="Continue" class="continue">
+				</form>
+			</div><!-- close acconut form -->
+		</div><!-- close account -->
+	</div><!-- close container -->
+
+</body>
+</html>
