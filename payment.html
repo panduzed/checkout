@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>M1 Checkout - Review & Payment</title>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Hind:300" rel="stylesheet">
+	<!-- Icons -->
+	<link rel="stylesheet" href="css/fa/css/font-awesome.min.css">
+	<!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+     <!-- Main Styles -->
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+
+	<header>
+		<div class="row">
+			<div class="col-md-12 col-xs-12">
+				<div class="col-md-4 col-xs-4"> 
+					<img src="img/logo.png" width="120px">
+				</div>
+				<div class="col-md-8 col-xs-8">
+					<p><i class="fa fa-shopping-bag"></i>YOUR ORDER</p>
+				</div>
+			</div><!-- close col-md-12 col-xs-12 -->
+		</div><!-- close row -->
+
+	</header>
+	
+	<nav>
+		<div class="row num">
+			<div class="col-md-12 col-xs-12">
+			<hr>
+				<div class="col-md-2 col-xs-2">
+						<a href="account.html"><p class="nav_num" id="n1" style="color: #60bf19">1</p></a>
+				</div>
+
+				<div class="col-md-4 col-xs-4">
+						<a href="billing.html"><p class="nav_num" id="n2" style="color: #60bf19">2</p></a>
+				</div>
+				
+				<div class="col-md-4 col-xs-4">
+						<a href="payment.html"><p class="nav_num" id="n3" style="color: #60bf19">3</p></a>
+				</div>
+				
+				<div class="col-md-2 col-xs-2">
+						<a href="finished.html"><p class="nav_num" id="n4">4</p></a>
+				</div>			
+			</div><!-- close col-md-12 col-xs-12 -->
+		</div><!-- close row -->
+		<div class="row nam">
+			<div class="col-md-12 col-xs-12">
+				<div class="col-md-2 col-xs-2">
+						<a href="account.html"><p class="nav_nam" style="color: #60bf19">Account</p></a>
+				</div>
+				<div class="col-md-4 col-xs-4">
+						<a href="billing.html"><p class="nav_nam" style="color: #60bf19">Shipping & Billing</p></a>
+				</div>
+				<div class="col-md-4 col-xs-4">
+						<a href="payment.html"><p class="nav_nam" style="color: #60bf19">Review & Payment</p></a>
+				</div>
+				<div class="col-md-2 col-xs-2">
+						<a href="finished.html"><p class="nav_nam">Finished</p></a>
+				</div>			
+			</div><!-- close col-md-12 col-xs-12 -->
+		</div><!-- close row -->
+	</nav>
+	
+	
+	<!-- main part of the page, account table -->
+	<div class="container">
+		<div class="account">
+			<h2>Payment</h2>
+			
+
+			<div class="payment_form">
+				<form action="billing.php">
+					<div class="form_input" id="rcorners1">
+					<table rules="all">
+					  <tr>
+					  	<td><p><label>Name on Card</label></p>
+					  	<td><p><input type="text" name="card_name" value=""></p></td>
+					  </td>
+					  <tr>
+					  	<td><p><label>Card Number</label></p>
+					  	<td><p><input type="number" name="card_number" value="" class="ln"></p></td>
+					  </td>
+					  <tr>
+						<td><p><label>Expiration</label></p>
+						<td class="month"><select name="month" value="Month" >
+								 <option value="01">1 January</option>
+								 <option value="02">2 February</option>
+								 <option value="03">3 March</option>
+								 <option value="04">4 April</option>
+								 <option value="05">5 May</option>
+								 <option value="06">6 June</option>
+								 <option value="07">7 July</option>
+								 <option value="08">8 August</option>
+								 <option value="09">9 September</option>
+								 <option value="10">10 October</option>
+								 <option value="11">11 November</option>
+								 <option value="12">12 December</option>
+								</select>
+
+								
+								
+						<select name="year" value="Year" style="width: 80px;">
+								<option value="01">2016</option>
+								 <option value="02">2017</option>
+								 <option value="03">2018</option>
+								 <option value="04">2019</option>
+								 <option value="05">2020</option>
+								 <option value="06">2021</option>
+								 <option value="07">2022</option>
+								 <option value="08">2023</option>
+								 <option value="09">2024</option>
+								 </select></td>
+					  </tr>
+					   <tr>
+					  	<td><p><label>CVV</label></p>
+					  	<td><p><input type="number" name="cvv" value="" class="ln"></p></td>
+					  </td>
+					  </tr>
+					 </table>
+					  </div>
+
+					 <h2><i class="fa fa-shopping-cart" aria-hidden="true"></i> Order</h2>
+					 <div id="rcorners1">
+					 
+					 <table rules="all" class="order_out">
+					  <tr>
+					  <div class="order_text">
+					  	<td><p class="title"><b>Billing Address</b></p>
+					  			  <br>
+					  			  <p>Ilya Design</p>
+					  			  <p>Cupertino Road</p>
+					  			  <p>Cupertino, California, 95014</p>
+					  			 <p>Unted States</p>
+					  			  <p>T: +480054648</p>
+					  			  <p>&nbsp;</p>
+					  	</td>
+					  	</div>
+					  </tr>
+					  <tr>
+					  <div class="order_text">
+					  	<td>
+					  	<p>&nbsp;</p>
+					  			<p><b>Sipping Address</b>
+					  			  <br><br>
+					  			  <p>Ilya Design</p>
+					  			  <p>Cupertino Road</p>
+					  			  <p>Cupertino, California, 95014</p>
+					  			 <p>Unted States</p>
+					  			  <p>T: +480054648</p>
+
+					  	</p>
+					  	</td>
+					  	</div>
+					  </tr>
+					  	</table>
+					  	</div>
+					  	</div>
+
+					  	<br><br>
+					  	 <div id="rcorners1">
+					 <table rules="all" class="order_out">
+					  <tr>
+					  	<td><p class="item"><img src="img/quickstart.png" style=" width:80px; border: solid 2px white;"> <b>Relifel Factor 3-Week Quickstart</b><br><strong>$19.95</strong></p>
+					  	</td>		  
+					  </tr>
+					  <tr>
+					  	<td><p class="shipping">Shipping & Handling<br><br><br><br>(Shipping & Handling - Fixed) <br><strong>$6.95</strong></b></p>
+					  	</td>
+					  </tr>
+					  <tr>
+					  	<td><p class="total"><b>Grand Total</b><br><strong>$26.90</strong></b></p>
+					  	</td>
+					  </tr>
+					  	</table>
+					  	</div>
+
+					  <br><br>
+					  <a href="billing.html"><input type="button" value="Back" class="back"></a>
+					   <a href="finished.html"><input type="button" value="Complete your Order" class="continue" style="width: 250px"></a>
+				</form>
+			</div><!-- close acconut form -->
+		</div><!-- close account -->
+	</div><!-- close container -->
+
+</body>
+</html>
